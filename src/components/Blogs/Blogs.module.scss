@@ -1,0 +1,28 @@
+.containerBlogs {
+  width: 100%;
+
+  .wrapper {
+    padding: 29px 0 0 24px;
+
+    .blogsTitle {
+      padding-bottom: 7px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #1A1718;
+
+      border-bottom: 1px solid #DEDBDC;
+    }
+
+    .searchSortBlock {
+      padding-top: 23px;
+      display: flex;
+      gap: 12px;
+    }
+
+    .blogContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

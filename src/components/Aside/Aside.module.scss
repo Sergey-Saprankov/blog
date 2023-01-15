@@ -1,0 +1,46 @@
+.aside {
+  width: 252px;
+  min-height: 100vh;
+
+
+  .wrapper {
+    padding: 50px 0 0 67px;
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .navItem {
+        height: 36px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .title {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          color: inherit;
+        }
+
+        .iconBlock {
+          display: flex;
+          align-items: center;
+          width: 18px;
+          height: 18px;
+
+
+          .icon {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+    .active {
+      color: #F8346B;
+      border-right: 2px solid #F8346B;
+    }
+  }
+}
